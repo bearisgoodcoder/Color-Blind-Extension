@@ -1,0 +1,24 @@
+{
+  "name": "Complimentary Colors",
+  "version": "1.0",
+  "description": "Changes color blindness filters for your preference.",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab"],
+  "homepage_url": "https://github.com/bearisgoodcoder/Color-Blind-Extension",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "/images/Color16.png",
+    "48": "/images/Color48.png",
+    "128": "/images/Color128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/Color16.png",
+      "48": "/images/Color48.png",
+      "128": "/images/Color128.png"
+    }
+  }
+}
